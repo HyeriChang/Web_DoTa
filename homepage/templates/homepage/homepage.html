@@ -6,7 +6,17 @@
 <link rel="stylesheet" href="{% static 'style.css' %}">
 
 <body style="background: black">
-  <div role="banner" class="banner"></div>
+<div >
+  <img src="http://media.steampowered.com/apps/dota2/images/international2012/teams/mouz_logo_med.png" style="width: 190px; text-align: center; margin-left: 300px">
+  <form action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search" style="width:200px ; margin-top: 40px; margin-left: 1500px">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+
+
+
+  <div role="banner" class="banner" style="padding-top: 0.5px"></div>
   <div>
     <div class="col-sm-2 secondbaner">Trang Chu</div>
     <div class="col-sm-2 secondbaner">Thi Dau</div>
@@ -130,11 +140,27 @@
         <span class="fa-stack fa-lg" style="color: white">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-angle-up fa-stack-1x" style="color: black"></i>
-</span>
-        ww
+        </span>
+        <p style="color: aliceblue; font-size: small">Ve Dau Trang</p>
       </div>
     </form>
   </div>
+  <div class="container" style="background: #8A0808; color: aliceblue">
+    <div class="row">
+      <div class="col-sm-6" style="text-align: center; padding-top: 40px">Copyright @ 2017 Team ABC, All rights reserved.</div>
+      <div class="col-sm-6">
+        <div class="row" style="text-align: center;padding-top: 40px">
+          <div class="col-sm-2">Trang Chu</div>
+          <div class="col-sm-3">Lich Thi Dau</div>
+          <div class="col-sm-2">Team</div>
+          <div class="col-sm-3">Player</div>
+          <div class="col-sm-2">Lien He </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script language="JavaScript">$("#back-to-top").click(function(){return $("body, html").animate({scrollTop:0},400),!1});
   $(function(){$('[data-toggle="tooltip"]').tooltip()});</script>
 </body>

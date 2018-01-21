@@ -1,0 +1,142 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<body style="background: black">
+  <div role="banner" class="banner"></div>
+  <div>
+    <div class="col-sm-2 secondbaner">Trang Chu</div>
+    <div class="col-sm-2 secondbaner">Thi Dau</div>
+    <div class="col-sm-3 secondbaner">Teams</div>
+    <div class="col-sm-3 secondbaner">Players</div>
+    <div class="col-sm-2 secondbaner">LienHe</div>
+  </div>
+<div class="container">
+  <div class="container ">
+    <img src="http://i.a4vn.com/2018/1/5/dota-2-team-mousesports-tuyen-bo-giai-tan-doi-hinh-sau-thoi-gian-27e80c.jpg" style="width: 100%"/>
+  </div>
+  <div style="background: black" class="row">
+    <div class="col-sm-6 lichthidau">
+      <div class="box-header">Lich Thi Dau</div>
+      <div class="team">
+        <strong>Team A vs Team B</strong>
+      </div>
+      <div class="live">
+        <strong>LIVE</strong> ABC Tournament
+      </div>
+      <div class="team">
+        <strong>Team C vs Team E</strong>
+      </div>
+      <div class="live" style="margin-bottom: 80px">
+        <strong>3h 15m 26s</strong> XYZ Tournament
+      </div>
+    </div>
+    <div class="col-sm-6 giaisaptoi">
+      <div class="box-header">Giai Sap Toi</div>
+      <div class="team">A Tournament 03/09-09/09/2017</div>
+      <div class="team">B Tournament 05/11-11/11/2017</div>
+      <div class="team">C Tournament 15/12-20/12/2017</div>
+    </div>
+  </div>
+  <div style="margin-bottom: 50px">
+    <p class="player" style="margin-bottom: 50px">TEAM</p>
+    <div class="row">
+      <div class="col-sm-5">
+        <img src="http://media.steampowered.com/apps/dota2/images/international2012/teams/mouz_logo_med.png">
+      </div>
+      <div class="col-sm-7" style="color: white; margin-bottom: 50px">
+        <p>It is true that video surveillance has become commonplace in many cities in recent years. While I understand
+          that critics may see this as an invasion of privacy, I believe that the benefits do outweigh the
+          drawbacks.There are two main reasons why people might disapprove of the use of video cameras in public places.
+          The first objection is that these cameras invade our privacy, in the sense that we are constantly being
+          watched by the authorities or by private security firms. Many people find this intrusive and feel that the
+          recording of their movements is a form of state control that curtails their individual freedom.</p>
+        <br/>TEAM ABC<br/>
+        Address: 123/45, X Street, Y District, TPHCM<br/>
+        Tel: +84 -00000000<br/>
+        E-mail: contact@abc.mail.com<br/>
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <p class="player">PLAYERS</p>
+    <div class="row" style="color: white; text-align: center">
+      <div class="col-sm-2 col-sm-offset-1">
+        <img
+            src="http://2.bp.blogspot.com/-H3bo12kp2L0/UwHRT-ZabbI/AAAAAAAAAGU/U__Sr8-sg8w/s1600/Cosita+byLoqqeagaa+(202).png"
+            class="image">
+        <p>Player A Ari</p>
+      </div>
+      <div class="col-sm-2">
+        <img
+            src="http://1.bp.blogspot.com/-p-5iagrIR7U/UwHRQc0eG8I/AAAAAAAAAGE/D7DzMJgKCoM/s1600/Cosita+byLoqqeagaa+(200).png"
+            class="image">
+        <p>Player B Bri</p>
+      </div>
+      <div class="col-sm-2">
+        <img
+            src="http://1.bp.blogspot.com/-hraI-mcf5kE/UwHRRgDIlYI/AAAAAAAAAGM/LKuvoN6a7do/s1600/Cosita+byLoqqeagaa+(201).png"
+            class="image">
+        <p>Player C Cri</p>
+      </div>
+      <div class="col-sm-2">
+        <img
+            src="http://3.bp.blogspot.com/-O21MiNeRgNc/UwHROe1Ch1I/AAAAAAAAAF8/9vIoBhmlONE/s1600/Cosita+byLoqqeagaa+(199).png"
+            class="image">
+        <p>Player D Dri</p>
+      </div>
+      <div class="col-sm-2">
+        <img
+            src="http://4.bp.blogspot.com/-5WRuW6FQ05s/UwHRMYikoCI/AAAAAAAAAF0/T32IHC2NHWM/s1600/Cosita+byLoqqeagaa+(198).png"
+            class="image">
+        <p>Player E Eri</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div>
+    <p class="player">LIEN HE</p>
+    <form class="form-horizontal" style="padding: 50px 0px 50px 160px">
+      <div class="form-group">
+        <label class="control-label col-sm-2 form" for="ten">Ten(*):</label>
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="ten" placeholder="Enter ten" name="ten">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2 form" for="email">Email:</label>
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+      </div>
+      <div class="form-group" >
+        <label class="control-label col-sm-2 form" for="noidung">Noi Dung(*):</label>
+        <div class="col-sm-6" >
+          <input type="email" class="form-control" id="noidung" placeholder="Write here" name="noi dung" style="height: 150px">
+          <p style="color: aliceblue">(*)Thong tin nay la bat buoc</p>
+           <button type="button" class="btn btn-danger" style="background: red; width: 115px">GUI</button>
+
+        </div>
+      </div>
+
+      <div id="back-to-top" class="back-to-top" data-toggle="tooltip" data-placement="left" title="Trở lên đầu trang">
+        <span class="fa-stack fa-lg" style="color: white">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-angle-up fa-stack-1x" style="color: black"></i>
+</span>
+        ww
+      </div>
+    </form>
+  </div>
+  <script language="JavaScript">$("#back-to-top").click(function(){return $("body, html").animate({scrollTop:0},400),!1});
+  $(function(){$('[data-toggle="tooltip"]').tooltip()});</script>
+</body>
+
+

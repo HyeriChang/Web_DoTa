@@ -1,0 +1,85 @@
+
+body {
+    background: black;
+}
+.banner
+{
+    background: black;
+    padding: 3%;
+}
+.secondbaner
+{
+    background: #DF0101;
+    color: snow;
+    -webkit-text-stroke: 1px #000;
+    padding: 1cm;
+    font-size: 32px;
+    text-align: center;
+}
+
+.lichthidau
+{
+    color: snow;
+    -webkit-text-stroke: 1px #000;
+    font-size: 32px;
+    text-align: center;
+}
+.giaisaptoi
+{
+    color: snow;
+    -webkit-text-stroke: 1px #000;
+    font-size: 32px;
+    text-align: center;
+}
+.team
+{
+    background: black;
+    font-size: 32px;
+}
+.live
+{
+    background: #8A0808;
+}
+.tour
+{
+    background: black;
+    display: table;
+    font-size: 28px;
+}
+.player
+{
+     background: #8A0808;
+    color: snow;
+    -webkit-text-stroke: 1px #000;
+    padding: 0;
+    font-size: 32px;
+    text-align: center;
+}
+.image
+{
+    width: 190px;
+    height: 170px;
+}
+
+.box-header {
+    background: red;
+}
+.form
+{
+    color: aliceblue;
+}
+.back-to-top {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 15px;
+    bottom: 15px;
+    font-size: 32px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+}
